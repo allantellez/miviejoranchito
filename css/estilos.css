@@ -1,0 +1,65 @@
+/* fallback */
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url(../fonts/icon.woff2) format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+.buscar input {
+    padding: 5px !important;
+    font-size: 18px !important;
+    width: 90% !important;
+    border: grey 3px solid !important;
+}
+
+.siguenos {
+    height: 300px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#social {
+    width: 95%;
+    max-width: 900px;
+    padding: 32px 64px;
+    margin: auto;
+}
+
+.social {
+    /*las imágenes usadas tienen width de 48px*/
+    width: 48px;
+    position: fixed;
+    top: 50px;
+    right: 0;
+}
+
+
+/* Extra centrado vertical*/
+
+.social {
+    /*border:1px solid #000;*/
+    top: 50%;
+    height: 205px;
+    /*para poner height 192 deberíamos haber indicado en el reset de estilos font-size:0;*/
+    margin-top: -100px;
+}
